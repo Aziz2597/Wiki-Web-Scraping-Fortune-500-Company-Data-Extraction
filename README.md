@@ -17,11 +17,13 @@ This automation solves critical data acquisition challenges in:
 ## Technical Implementation
 
 ### Data Pipeline Architecture
+```mermaid
 graph LR
     A[Web Source<br>Wikipedia] --> B[HTTP Request<br>requests]
     B --> C[HTML Parsing<br>BeautifulSoup]
     C --> D[Data Extraction<br>Table Scraping]
     D --> E[Structured Output<br>Pandas DataFrame]
+```
  
 ### Core Components
 
